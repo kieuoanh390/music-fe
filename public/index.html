@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Music Web</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Code3s">
+    <meta name="MobileOptimized" content="320">
+    <meta property="og:site_name" content="Spotify">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="icon" sizes="16x16" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+    <meta property="og:title" content="Spotify - Web Player: Music for everyone">
+    <meta property="og:description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <meta property="og:image" content="https://open.spotifycdn.com/cdn/images/og-image.548bc4b7.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"  content="Spotify - Web Player: Music for everyone">
+    <meta name="twitter:description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <meta name="twitter:image" content="https://open.spotifycdn.com/cdn/images/og-image.548bc4b7.png">
+    <!--Start Style -->
+    <link rel="stylesheet" type="text/css" href="/resources/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/js/plugins/swiper/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/js/plugins/nice_select/nice-select.css">
+    <link rel="stylesheet" type="text/css" href="/resources/js/plugins/player/volume.css">
+	<link rel="stylesheet" type="text/css" href="/resources/js/plugins/scroll/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" type="image/png" href="/resources/images/logo.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1014651997538036"
+          crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <div id="root"></div>
+    <!-- 
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="text/javascript" src="/resources/js/jquery.js"></script>
+    <script type="text/javascript" src="/resources/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/resources/js/plugins/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/resources/js/plugins/player/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="/resources/js/plugins/nice_select/jquery.nice-select.min.js"></script>
+	<script type="text/javascript" src="/resources/js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="/resources/js/custom.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCji4ZpCRGR-Stl_MJlr0FnCTtPJdqfbbI",
+        authDomain: "spotify-a74af.firebaseapp.com",
+        projectId: "spotify-a74af",
+        storageBucket: "spotify-a74af.firebasestorage.app",
+        messagingSenderId: "1066175665226",
+        appId: "1:1066175665226:web:5fccdc4f349b786d8e42b3",
+        measurementId: "G-TNN8DMB74D"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TNN8DMB74D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TNN8DMB74D');
+</script>
+  </body>
+</html>
