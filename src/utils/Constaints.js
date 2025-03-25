@@ -1,4 +1,4 @@
-export const API_ENDPOINT = 'https://spotifyapi.auto.io.vn/'
+export const API_ENDPOINT = 'http://localhost:8081'
 
 export const STATUS_CODE = {
     SUCCESS: 200,
